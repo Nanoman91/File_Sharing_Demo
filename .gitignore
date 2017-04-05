@@ -1,0 +1,12 @@
+target/classes/
+classes/
+Thumbs.db
+.DS_Store
+*.class
+bin/
+target/
+plugins/
+features/
+artifacts.jar
+content.jar
+.svn
