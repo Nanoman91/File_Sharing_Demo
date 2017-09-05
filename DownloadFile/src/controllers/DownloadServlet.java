@@ -23,10 +23,8 @@ public class DownloadServlet extends HttpServlet {
 
 		// reads input file from an absolute path
 		String filePath = request.getParameter("filePath");
-		System.out.println("file path 1: " + filePath);
 		if (null == filePath || !filePath.startsWith(Util.getShareDir())) {
 			filePath = Util.getShareDir();
-			System.out.println("file path 2: " + filePath);
 		}
 
 		File requestedFile = new File(filePath);
