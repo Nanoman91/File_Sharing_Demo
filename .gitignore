@@ -10,3 +10,6 @@ features/
 artifacts.jar
 content.jar
 .svn
+.settings/
+.classpath
+.project
